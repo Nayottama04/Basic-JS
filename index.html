@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita Terkini</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav-center">
+          <span>Berita Terkini</span>
+          <input
+            type="text"
+            class="search-bar"
+            placeholder="Search articles..."
+          />
+          <button class="btn" id="dark-mode-toggle">🌞</button>
+        </div>
+      </nav>
+      <section class="articles">
+        <!-- Articles will be injected here by JavaScript -->
+      </section>
+    </main>
+    <!-- moment.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- data -->
+    <script src="./data.js"></script>
+    <!-- logic -->
+    <script src="./app.js"></script>
+  </body>
+  
+</html>
